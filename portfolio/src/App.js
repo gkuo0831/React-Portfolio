@@ -1,16 +1,16 @@
 import logo from "./logo.svg";
 import "./App.css";
-
-import Header from "./components/header";
+import Home from "./pages/home";
+import { BrowserRouter as Router, Link, Route, Switch } from "react-router-dom";
+import "./index.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Header />
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route extact path="/" component={Home} />
+      </Switch>
+    </Router>
   );
 }
 
