@@ -6,11 +6,11 @@ import Layout from "../components/layout";
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <Navbar />
 
       <Container text>
-        <Header as="h1" textAlign="center" content="Hello there, I'm Grace!" />
+        <Header as="h1" textAlign="center" content="KUO.IO" />
         <Header
           as="h2"
           textAlign="center"

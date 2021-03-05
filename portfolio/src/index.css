@@ -16,3 +16,7 @@ code {
   position: absolute;
   margin-bottom: 60px;
 }
+
+.home {
+  background-image: url("./cool-background.png");
+}
