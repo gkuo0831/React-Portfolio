@@ -1,8 +1,9 @@
 import React from "react";
 import { Header, Container, Button, Icon, Grid } from "semantic-ui-react";
 import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+
 import Layout from "../components/layout";
+import Footer from "../components/footer";
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
         />
       </Container>
       <Layout />
+      <Footer />
     </div>
   );
 }

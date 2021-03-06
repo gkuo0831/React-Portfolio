@@ -1,18 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import {
-  Header,
-  Container,
-  Button,
-  Icon,
-  Grid,
-  Segment,
-  Image,
-  List,
-  Divider,
-} from "semantic-ui-react";
+import { Header, Container, Button, Segment, Divider } from "semantic-ui-react";
 import AboutMe from "./aboutme";
-
+import Modal from "./modal";
 const HomepageLayout = () => (
   <Container>
     <AboutMe />
@@ -23,15 +12,11 @@ const HomepageLayout = () => (
           Breaking The Grid, Grabs Your Attention
         </Header>
         <p style={{ fontSize: "1.33em" }}>
-          Instead of focusing on content creation and hard work, we have learned
-          how to master the art of doing nothing by providing massive amounts of
-          whitespace and generic content that can seem massive, monolithic and
-          worth your attention.
+          I was not always interested in web development. During and after I
+          graduated from CU Boulder I held many jobs while trying to learn how
+          to code. Check out my resume below:
         </p>
-        <Button as="a" size="large">
-          Read More
-        </Button>
-
+        <Modal />
         <Divider
           as="h4"
           className="header"
@@ -53,43 +38,6 @@ const HomepageLayout = () => (
           I'm Still Quite Interested
         </Button>
       </Container>
-    </Segment>
-
-    <Segment
-      inverted
-      vertical
-      style={{ padding: "0em 0em" }}
-      horizontal
-      style={{ padding: "5em 0em" }}
-    >
-      <Grid divided inverted stackable>
-        <Grid.Row>
-          <Grid.Column width={3}>
-            <Header inverted as="h4" content="Contact Me!" />
-            <List link inverted>
-              <List.Item as="a">
-                <a href="https://github.com/gkuo0831">Github</a>
-              </List.Item>
-              <List.Item as="a">
-                <a href="https://www.linkedin.com/in/gkuo98/">Linkedin</a>
-              </List.Item>
-              <List.Item as="a">
-                <a href="mailto:gkuo98@gmail.com">Email</a>
-              </List.Item>
-            </List>
-          </Grid.Column>
-
-          <Grid.Column width={7}>
-            <Header as="h4" inverted>
-              Footer
-            </Header>
-            <p>
-              Extra space for a call to action inside the footer that could help
-              re-engage users.
-            </p>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
     </Segment>
   </Container>
 );

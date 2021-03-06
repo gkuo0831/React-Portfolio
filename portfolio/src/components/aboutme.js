@@ -10,7 +10,7 @@ import {
   List,
   Divider,
 } from "semantic-ui-react";
-import Avatar from "../assets/img.jpg";
+import Avatar from "../assets/Avatar.jpeg";
 const AboutMe = () => (
   <Container>
     <Segment style={{ padding: "8em 0em" }} vertical>
@@ -41,13 +41,18 @@ const AboutMe = () => (
               src={Avatar}
               alt="avatar"
               className="computerimg"
-              style={{ height: "300px" }}
+              style={{ height: "100%" }}
             />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
           <Grid.Column textAlign="center">
-            <Button size="huge">Check Them Out</Button>
+            <Header>Check out my repo below:</Header>
+            <Button link inverted>
+              <List.Item as="a">
+                <a href="https://github.com/gkuo0831">Github</a>
+              </List.Item>
+            </Button>
           </Grid.Column>
         </Grid.Row>
       </Grid>
