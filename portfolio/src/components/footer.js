@@ -8,11 +8,9 @@ import {
   Icon,
   Image,
   List,
-  Menu,
   Segment,
-  Sidebar,
-  Visibility,
 } from "semantic-ui-react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   <Segment inverted vertical style={{ padding: "5em 0em" }}>
@@ -21,8 +19,15 @@ function Footer() {
         <Grid.Row>
           <Grid.Column width={3}>
             <Header inverted as="h4" content="About" />
+            <button class="ui button">
+              <Link
+                to={{ pathname: "https://github.com/gkuo0831/React-Portfolio" }}
+                target="_blank"
+              />
+              Click Here
+            </button>
             <List link inverted>
-              <List.Item as="a"><a href='https://github.com/gkuo0831'>Github</List.Item>
+              <List.Item as="a">Github</List.Item>
               <List.Item as="a">Email</List.Item>
               <List.Item as="a">Linkedin</List.Item>
             </List>

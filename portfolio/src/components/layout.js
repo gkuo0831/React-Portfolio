@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import {
   Header,
   Container,
@@ -17,39 +17,7 @@ const HomepageLayout = () => (
   <Container>
     <AboutMe />
 
-    <Segment style={{ padding: "0em" }} vertical>
-      <Grid celled="internally" columns="equal" stackable>
-        <Grid.Row textAlign="center">
-          <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              "What a Company"
-            </Header>
-            <p style={{ fontSize: "1.33em" }}>
-              That is what they all say about us
-            </p>
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              "What a Company"
-            </Header>
-            <p style={{ fontSize: "1.33em" }}>
-              That is what they all say about us
-            </p>
-          </Grid.Column>
-          <Grid.Column style={{ paddingBottom: "5em", paddingTop: "5em" }}>
-            <Header as="h3" style={{ fontSize: "2em" }}>
-              "I shouldn't have gone with their competitor."
-            </Header>
-            <p style={{ fontSize: "1.33em" }}>
-              <Image avatar src="/images/avatar/large/nan.jpg" />
-              <b>Nan</b> Chief Fun Officer Acme Toys
-            </p>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
-    </Segment>
-
-    <Segment style={{ padding: "8em 0em" }} vertical>
+    <Segment style={{ padding: "5em 0em" }} vertical>
       <Container text>
         <Header as="h3" style={{ fontSize: "2em" }}>
           Breaking The Grid, Grabs Your Attention
@@ -97,23 +65,20 @@ const HomepageLayout = () => (
       <Grid divided inverted stackable>
         <Grid.Row>
           <Grid.Column width={3}>
-            <Header inverted as="h4" content="About" />
+            <Header inverted as="h4" content="Contact Me!" />
             <List link inverted>
-              <List.Item as="a">Sitemap</List.Item>
-              <List.Item as="a">Contact Us</List.Item>
-              <List.Item as="a">Religious Ceremonies</List.Item>
-              <List.Item as="a">Gazebo Plans</List.Item>
+              <List.Item as="a">
+                <a href="https://github.com/gkuo0831">Github</a>
+              </List.Item>
+              <List.Item as="a">
+                <a href="https://www.linkedin.com/in/gkuo98/">Linkedin</a>
+              </List.Item>
+              <List.Item as="a">
+                <a href="mailto:gkuo98@gmail.com">Email</a>
+              </List.Item>
             </List>
           </Grid.Column>
-          <Grid.Column width={3}>
-            <Header inverted as="h4" content="Services" />
-            <List link inverted>
-              <List.Item as="a">Banana Pre-Order</List.Item>
-              <List.Item as="a">DNA FAQ</List.Item>
-              <List.Item as="a">How To Access</List.Item>
-              <List.Item as="a">Favorite X-Men</List.Item>
-            </List>
-          </Grid.Column>
+
           <Grid.Column width={7}>
             <Header as="h4" inverted>
               Footer
