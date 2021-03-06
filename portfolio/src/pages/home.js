@@ -1,9 +1,8 @@
 import React from "react";
 import { Header, Container, Button, Icon, Grid } from "semantic-ui-react";
-import Navbar from "../components/navbar";
-
+import Navbar from "../components/navbar/navbar";
 import Layout from "../components/layout";
-import Footer from "../components/footer";
+import Footer from "../components/Footer/footer";
 
 function Home() {
   return (

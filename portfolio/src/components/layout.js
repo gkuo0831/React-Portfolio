@@ -5,8 +5,7 @@ import Modal from "./modal";
 const HomepageLayout = () => (
   <Container>
     <AboutMe />
-
-    <Segment style={{ padding: "5em 0em" }} vertical>
+    <Segment style={{ padding: "3em 3em" }} vertical>
       <Container text>
         <Header as="h3" style={{ fontSize: "2em" }}>
           Breaking The Grid, Grabs Your Attention
