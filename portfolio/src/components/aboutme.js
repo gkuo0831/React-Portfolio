@@ -13,7 +13,7 @@ import {
 import Avatar from "../assets/Avatar.jpeg";
 const AboutMe = () => (
   <Container>
-    <Segment style={{ padding: "8em 0em" }} vertical>
+    <Segment style={{ padding: "0em 0em" }} vertical>
       <Grid container stackable verticalAlign="middle">
         <Grid.Row>
           <Grid.Column width={8}>
@@ -36,12 +36,12 @@ const AboutMe = () => (
               functional webpage; and create unique and beautiful websites.
             </p>
           </Grid.Column>
-          <Grid.Column floated="right" width={6}>
+          <Grid.Column floated="right" width={6} style={{ padding: "5em 0em" }}>
             <img
               src={Avatar}
               alt="avatar"
               className="computerimg"
-              style={{ height: "100%" }}
+              style={{ heigt: "90%" }}
             />
           </Grid.Column>
         </Grid.Row>

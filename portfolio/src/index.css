@@ -24,3 +24,13 @@ code {
 .computerimg {
   width: 500px;
 }
+
+.projectstitle {
+  color: black;
+  font-size: 20px;
+}
+
+.eth {
+  width: 200px;
+  height: 250px;
+}

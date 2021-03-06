@@ -16,11 +16,6 @@ export default class MenuExampleSecondary extends Component {
           active={activeItem === "home"}
           onClick={this.handleItemClick}
         />
-        <Menu.Item
-          name="projects"
-          active={activeItem === "messages"}
-          onClick={this.handleItemClick}
-        />
       </Menu>
     );
   }
