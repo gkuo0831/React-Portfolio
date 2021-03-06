@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.a4717ef2.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.32dfdeb6.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.32dfdeb6.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.6639f187.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.6639f187.js.map",
+    "static/css/2.519844fd.chunk.css": "/React-Portfolio/static/css/2.519844fd.chunk.css",
+    "static/js/2.afd9a64d.chunk.js": "/React-Portfolio/static/js/2.afd9a64d.chunk.js",
+    "static/js/2.afd9a64d.chunk.js.map": "/React-Portfolio/static/js/2.afd9a64d.chunk.js.map",
+    "static/js/3.1783a5b4.chunk.js": "/React-Portfolio/static/js/3.1783a5b4.chunk.js",
+    "static/js/3.1783a5b4.chunk.js.map": "/React-Portfolio/static/js/3.1783a5b4.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/2.519844fd.chunk.css.map": "/React-Portfolio/static/css/2.519844fd.chunk.css.map",
+    "static/css/main.a4717ef2.chunk.css.map": "/React-Portfolio/static/css/main.a4717ef2.chunk.css.map",
+    "static/js/2.afd9a64d.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.afd9a64d.chunk.js.LICENSE.txt",
+    "static/media/Avatar.a29e2f72.jpeg": "/React-Portfolio/static/media/Avatar.a29e2f72.jpeg",
+    "static/media/ETH.3e8dc978.png": "/React-Portfolio/static/media/ETH.3e8dc978.png",
+    "static/media/Employee.30819a17.png": "/React-Portfolio/static/media/Employee.30819a17.png",
+    "static/media/Fitness.9806e8a5.png": "/React-Portfolio/static/media/Fitness.9806e8a5.png",
+    "static/media/Kanban.8df0e3f9.png": "/React-Portfolio/static/media/Kanban.8df0e3f9.png",
+    "static/media/PasswordGenerator.812aed96.png": "/React-Portfolio/static/media/PasswordGenerator.812aed96.png",
+    "static/media/Resume.ddedd78a.png": "/React-Portfolio/static/media/Resume.ddedd78a.png",
+    "static/media/semantic.min.css": "/React-Portfolio/static/media/outline-icons.ddae9b1b.woff",
+    "static/media/index.css": "/React-Portfolio/static/media/cool-background.385f18ff.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6639f187.js",
+    "static/css/2.519844fd.chunk.css",
+    "static/js/2.afd9a64d.chunk.js",
+    "static/css/main.a4717ef2.chunk.css",
+    "static/js/main.32dfdeb6.chunk.js"
+  ]
+}
