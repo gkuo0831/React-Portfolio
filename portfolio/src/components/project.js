@@ -1,14 +1,10 @@
 import React from "react";
-import {
-  Grid,
-  Image,
-  Header,
-  Button,
-  List,
-  Container,
-} from "semantic-ui-react";
+import { Grid, Header, Button, List } from "semantic-ui-react";
 import ETH from "../assets/ETH.png";
 import PasswordGenerator from "../assets/PasswordGenerator.png";
+import Kanban from "../assets/Kanban.png";
+import Fitness from "../assets/Fitness.png";
+import Employee from "../assets/Employee.png";
 
 const GridExampleDividedNumber = () => (
   <Grid columns={3} divided>
@@ -54,21 +50,48 @@ const GridExampleDividedNumber = () => (
             <a href="https://vast-shore-03076.herokuapp.com/home">View Here</a>
           </List.Item>
         </List>
-        <img src={ETH} alt="eth" className="eth" />
+        <img src={Kanban} alt="eth" className="eth" />
       </Grid.Column>
     </Grid.Row>
 
     <Grid.Row>
       <Grid.Column textAlign="center">
-        <p>
-          What is Lorem Ipsum Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book it has?
-        </p>
+        <Header as="h4">Fitness Tracker</Header>
+        <List>
+          <List.Item as="a">
+            <a href="https://github.com/gkuo0831/Fitness-Tracker">
+              Project Repo
+            </a>
+          </List.Item>
+          <List.Item as="a">
+            <a
+              href="
+                https://gym-app34.herokuapp.com https://github.com/gkuo0831/Fitness-Tracker"
+            >
+              View Here
+            </a>
+          </List.Item>
+        </List>
+        <img src={Fitness} alt="eth" className="eth" />
       </Grid.Column>
       <Grid.Column textAlign="center">
-        <p>Project 5 Coming Soon! It will be a book search!</p>
+        <Header as="h4">Employee Summary</Header>
+        <List>
+          <List.Item as="a">
+            <a href="https://github.com/gkuo0831/Employee-Summary">
+              Project Repo
+            </a>
+          </List.Item>
+          <List.Item as="a">
+            <a
+              href="
+              https://drive.google.com/file/d/1pX_TdXf2tD5j0R7UXkJ-V9ZgEwEowjGL/view"
+            >
+              View Recording
+            </a>
+          </List.Item>
+        </List>
+        <img src={Employee} alt="eth" className="eth" />
       </Grid.Column>
       <Grid.Column textAlign="center">
         <p>Project 6 Coming Soon! It will be a wellness app!</p>
